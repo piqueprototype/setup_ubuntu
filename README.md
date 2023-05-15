@@ -9,4 +9,4 @@ If you enabled Third-parties and created SecureBoot key, enroll MOK upon reboot 
 ### Docker
 ### Node Version Manager (nvm)
 * [Install NVM](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04#option-3-installing-node-using-the-node-version-manager)
-
+### Python
