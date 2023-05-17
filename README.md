@@ -23,3 +23,8 @@ sudo openvpn --config /etc/openvpn/client.conf
 ```
 * If the above command throws an error indicating that the server uses a different `data-cipher`. You can correct this issue by adding `data-ciphers AES-256-GCM:AES-128-GCM:THE_NEW_CIPHER`.
   * `THE_NEW_CIPHER` or more likely, older, include the one your server is utilizing. 
+
+#### Start the service
+```bash
+sudo systemctl start openvpn@client
+```
